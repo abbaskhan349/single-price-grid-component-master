@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;      
+    background-color: hsl(219, 29%, 80%);
+    font-family: 'Karla', sans-serif;
+  }
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .maincard {
+    height: 600px;
+    width: 500px;
+    border-collapse: separate;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .top {
+    background-color: white;
+    /* height: 150px; */
+    padding: 30px;
+    font-size: small;
+  }
+  .top h2 {
+    font-weight: 700;
+    color: rgb(32, 166, 168);
+  }
+  .top p {
+    font-weight: 400;
+  }
+  #yellow {
+    color: hsl(71, 73%, 54%);
+  }
+  .bottom {
+    display: flex;
+    font-size: small;
+    color: white;
+    
+  }
+  .left {
+    background-color: rgb(32, 166, 168);
+    width: 250px;
+    padding: 30px;
+    border-radius: 0 0 0 10px;
+  }
+  .pricecontainer h5 {
+    font-weight: 400;
+  }
+  #permonth {
+    font-size: x-small;
+    font-weight: 400;
+  }
+  #numbers {
+    font-size: large;
+  }
+
+  .left button {
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 5px;
+    border: none;
+    width: 160px;
+    height: 30px;
+    color: white;
+    box-shadow: 2px 2px 4px #747483bd;
+    cursor: pointer;
+  }
+  .right {
+    background-color: rgb(95, 180, 183);
+    width: 250px;
+    padding: 30px;
+    padding-right: 30px;
+    border-radius: 0 0 10px 0;
+    
+  }
+  .right h4 {
+    font-weight: 700;
+  }
+  .right h5 {
+    font-weight: 400;
+    line-height: 1.5;
+    filter: brightness(87%) ;
+  }
